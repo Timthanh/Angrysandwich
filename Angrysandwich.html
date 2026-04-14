@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-sea-green.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>       
+            <img src="Angrys.png">
+        <nav class="nav">
+               <a href="#">Meny</a>  
+               <a href="#">Öl</a>
+               <a href="#">Vad är Angrysandwich</a>
+               <a href="#">Kontakt</a>
+               <a href="#">Beställ Online</a>
+               <a href="#">Hitta oss</a>
+               <a href="#">Sociala</a>
+        </nav>
+
+          <nav class="Boka">
+             <a href="#">Boka</a>
+          </nav>
+    </header>
+
+<main>          
+            <div class="shop">
+                <img src="Angry.shop.png">
+            </div>
+
+<section class="first"> 
+   <article class="top">
+      <div class="besk">
+              <h1>Simpelt, Snabbt och fresh</h1>
+              <b>Angry Sandwich är streetfood som det borde vara. Det ska gå fort och inte vara några konstigheter, men behöver inte vara så komplicerat. Vi gör allt som vi serverar in-house, förutom brödet som vi hämtar från lokal bakeri varje morgon. Så inga onödiga konserveringsmedel eller annat skit i våran mat. 
+Vi gör även allt efter beställning, så du behöver vara orolig över någon vissen pommes som legat udner en varmelampa förlänge.</b>
+      </div>    
+    
+       <div class="menuitem">
+         <div class="bild">
+            <img src="blt.jpg">
+         </div>
+    </article>
+</section>
+       
+     <article class="mid">
+       <div class="meny">
+          <div class="item">
+              <div class="topr">
+                  <h2>Clubsandwich</h2>
+                  <span class="pris">145 KR</span>
+              </div>
+                <p>Grillad kyckling, bacon, romansallad, tomat, lök och currymajo dressing. Serveras i toastat bröd.</p>
+          </div>
+
+        <div class="item">
+            <div class="topr">
+                <h2>Cheese steak</h2>
+                <span class="pris">145 KR</span>
+            </div>
+            <p>Strimmlad ribeyestek, karamelliserad lök, våran speciella ostblandning. Serveras i baguette.</p>
+        </div>
+
+        <div class="item">
+            <div class="topr">
+                <h2>BLT</h2>
+                <span class="pris">145 KR</span>
+            </div>
+            <p>Bacon, cheddar, romansallad, tomat, avocado och våran hemmagjorda majonnäs. Serveras i toastat bröd.</p>
+        </div>
+
+        <div class="item">
+            <div class="topr">
+                <h2>Creole Steak Fries</h2>
+                <span class="pris">145 KR</span>
+            </div>
+            <p>Strimmlad butcherstek, karamelliserad lök, våran speciella ostblandning, jalapeno, creolmajo, trippel friterad pommes.</p>
+        </div>
+
+        <div class="item">
+            <div class="topr">
+                <h2>Bookmaker Toast</h2>
+                <span class="pris">145 KR</span>
+            </div>
+            <p>Entrecote, romansallad, rödlök, pepparrot, dijoncrèmen. Serveras på toastat bröd.</p>
+       </div>
+    </div>
+
+   </div>
+     <div class="tid" >
+        <h3>Öppetider</h3>
+               <b>Mån</b>
+               <p>10:00 - 20:00</p>
+               <b>Tis</b>
+               <p>10:00 - 20:00</p>
+               <b>Ons</b>
+               <p>10:00 - 20:00</p>
+               <b>Tor</b>
+               <p>10:00 - 20:00</p>
+               <b>Fre</b>
+               <p>12 - 22:00</p>
+               <b>Lör</b>
+               <p>16:00 - 00:00</p>
+               <b>Sön</b>
+               <p>stängt</p>
+     </div>   
+ </article>    
+     
+<section class="bottom">
+     <article class="bot">
+       <div class="snacks">
+              <h4>Pricken över I:et på din måltid</h4>
+              <p>Våra Hemmagjorda chilicheese med vårat hemliga ost recept. något du inte kommer ångra och självklart måste våran trippelfriterade pommes!</p>
+       </div>
+
+    <div class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+            <ul class="splide__list">
+               <li class="splide__slide"><img src="fries.jpg"></li>
+               <li class="splide__slide"><img src="chilicheese.jpg"></li>
+            </ul>
+      </div>
+    </div>
+</main>
+
+   <script>
+      // Dom Script init
+       new Splide( '.splide', {
+        speed: 3000,
+        type: 'loop',
+        autoplay: 'true',
+         breakpoints: {
+		   740: {
+			perPage: 1,
+		    },
+         },
+       } ).mount();
+    </script>
+   </article>
+ </section>
+
+ <footer>
+    <section class="fot">
+        <img src="Angrys.png">
+          <nav class="info">
+               <b>Info</b>
+               <a href="#">Företagsinfo</a>
+               <a href="#">Jobba här</a>
+               <a href="#">Om oss</a>
+          </nav>
+
+          <nav class="info">
+              <b>Kontakt</b>
+              <a href="#">Mackgatan 23</a>
+              <a href="#">011-11 11 11</a>
+              <a href="#">Angry.sandwich@outlook.com</a>
+         </nav>
+
+         <nav class="info">
+              <b>Media</b>
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">Twich</a>
+         </nav>
+
+         <img src="Angry.sandwich.logo.1.png">
+        
+     </section>
+ </footer>
+</body>
+
+</html>
